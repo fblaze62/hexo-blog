@@ -2259,7 +2259,7 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
     root: '/',
     debug: "env",
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1782471051555),
+    lastupdate: new Date(1782471882156),
     cdn: {
       izitoast_css: 'https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css',
       izitoast_js: 'https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js',
@@ -2268,7 +2268,7 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
     },
     sidebar: {
       for_page: ["blogger","announce","category","tagcloud","lastupdate","webinfo"],
-      for_post: ["blogger","toc"],
+      for_post: ["blogger","toc","announce"],
       webinfo: {
         lastupd: {
           enable: true,
@@ -2968,14 +2968,14 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
   
   <header>
     
-      <i class="fas fa-bullhorn fa-fw" aria-hidden="true"></i><span class='name'>网站公告</span>
+      <a href='/announcement/'><i class="fas fa-bullhorn fa-fw" aria-hidden="true"></i><span class='name'>网站公告</span></a>
     
   </header>
 
 
   <div class='content'>
     
-      <p>网站近期丢失了 Hexo 的源文件，现已恢复。如需旧网站请访问「<a target="_blank" rel="noopener" href="https://8a2789d8.fbblog.pages.dev/%E3%80%8D%E3%80%82">https://8a2789d8.fbblog.pages.dev/」。</a></p>
+      <p>网站近期丢失了 Hexo 的源文件，现已恢复。如需旧网站请访问 <a target="_blank" rel="noopener" href="https://8a2789d8.fbblog.pages.dev/">https://8a2789d8.fbblog.pages.dev/</a> 。</p>
 
     
   </div>
@@ -2993,7 +2993,7 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
     
   <header>
     
-      <a href='/blog/categories/'><i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
+      <a href='/categories/'><i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
     
   </header>
 
@@ -3023,7 +3023,7 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
     
   <header>
     
-      <a href='/blog/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
+      <a href='/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
     
   </header>
 
