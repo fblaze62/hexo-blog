@@ -664,7 +664,7 @@ button {
 }
 @font-face {
   font-family: 'MiSans';
-  src: url("https://gcore.jsdelivr.net/gh/fblaze62/fonts/MiSans/woff2/MiSans-Regular.woff2");
+  src: url("https://gcore.jsdelivr.net/gh/fblaze62/fonts/MiSans/subset/gb2312/MiSans-Regular.woff2");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
