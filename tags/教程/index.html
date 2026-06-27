@@ -2259,7 +2259,7 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
     root: '/',
     debug: "env",
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1782547736589),
+    lastupdate: new Date(1782549753249),
     cdn: {
       izitoast_css: 'https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css',
       izitoast_js: 'https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js',
@@ -2337,6 +2337,8 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
         
         <a class="title flat-box" target="_self" href='/'>
           
+            <img no-lazy class='logo' src='https://gcore.jsdelivr.net/gh/fblaze62/blog@main/images/avatar_with_blank.png'/>
+          
           
           
             FeatherBlaze's Blog
@@ -2360,6 +2362,23 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
                     active-action="action-home"
                   >
                   <i class='fa-solid fa-rss fa-fw'></i>博客
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/announcement/" title="公告"
+                  
+                  
+                  
+                    active-action="action-announcement"
+                  >
+                  <i class='fa-solid fa-bullhorn fa-fw'></i>公告
                 </a>
                 
               </li>
@@ -2481,6 +2500,23 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
                     active-action="action-home"
                   >
                   <i class='fa-solid fa-rss fa-fw'></i>博客
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/announcement/" title="公告"
+                  
+                  
+                  
+                    active-action="action-announcement"
+                  >
+                  <i class='fa-solid fa-bullhorn fa-fw'></i>公告
                 </a>
                 
               </li>
@@ -2623,6 +2659,13 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
               <i class='fa-solid fa-rss fa-fw'></i><p>博客</p>
             </a>
           
+            <a href="/announcement/"
+              
+              
+              active-action="action-announcement">
+              <i class='fa-solid fa-bullhorn fa-fw'></i><p>公告</p>
+            </a>
+          
             <a href="/categories/"
               
               
@@ -2718,13 +2761,7 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
   
   <div class='md article-desc' itemprop="articleBody">
     
-      
-        这几天心血来潮想试试Discord，但国内网络环境无法访问。
-网上主流的方法是使用Watt Toolkit，但加速Discord的功能已经被删除了。
-于是，我又找到一款加速器——Steamcommunity 302。
-下载链接在这：GitHub。
-具体功能就不详细介绍了。打开软件，在“其他服务”里勾上“Discord 语音”即可。其他加速功能不推荐使用，还是用回Watt Toolkit，这个...
-      
+      <p>本文介绍了一个可以加速 Discord 的加速器——Steamcommunity 302。</p>
     
   </div>
   
@@ -2785,13 +2822,7 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
   
   <div class='md article-desc' itemprop="articleBody">
     
-      
-        破解上网&#x2F;U盘限制极域的网络和文件限制是通过MasterHelper.exe进程和服务实现的，因此我们只需结束进程和服务即可破解。
-首先打开cmd或PowerShell（通过搜索或Win+R）,然后输入下面的指令：
-123taskkill /im MasterHelper.exe /fsc stop TDNetFiltersc stop TDFileFilter
-
-其中taskki...
-      
+      <p>本文介绍了多种接触极域教师端控制的方法。推荐 <a href="https://blog.fblaze62.top/posts/crack-mythware/#%E7%A0%B4%E8%A7%A3%E4%B8%8A%E7%BD%91-U%E7%9B%98%E9%99%90%E5%88%B6">破解上网&#x2F;U盘限制</a>+<a href="https://blog.fblaze62.top/posts/crack-mythware/#%E7%A6%81%E7%94%A8%E5%85%A8%E5%B1%8F%E5%B9%BF%E6%92%AD">禁用全屏广播</a>+<a href="https://blog.fblaze62.top/posts/crack-mythware/#%E9%98%B2%E6%AD%A2%E6%88%AA%E5%B1%8F">防止截屏</a> 三种方法组合。</p>
     
   </div>
   
@@ -2971,14 +3002,14 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
   
   <header>
     
-      <a href='/announcement/'><i class="fas fa-bullhorn fa-fw" aria-hidden="true"></i><span class='name'>网站公告</span></a>
+      <a href='/announcement/'><i class="fa-solid fa-bullhorn fa-fw" aria-hidden="true"></i><span class='name'>网站公告</span></a>
     
   </header>
 
 
   <div class='content'>
     
-      <p>网站近期丢失了 Hexo 的源文件，现已恢复。如需旧网站请访问 <a target="_blank" rel="noopener" href="https://8a2789d8.fbblog.pages.dev/">https://8a2789d8.fbblog.pages.dev/</a> 。</p>
+      <p>网站近期优化了字体。<a href="/announcement/">查看详情</a></p>
 
     
   </div>
@@ -3055,7 +3086,7 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
 
 
   <div class='content'>
-    <ul class="list entry navigation"><li><a class="widget-last" href="/posts/discord-accelerator/"><div class="item"><time>2026-06-24</time><span>教程</span></div><span>国内免科学上网使用Discord</span></a></li><li><a class="widget-last" href="/posts/crack-mythware/"><div class="item"><time>2026-06-24</time><span>教程</span></div><span>破解极域，解放你的电脑！</span></a></li></ul>
+    <ul class="list entry navigation"><li><a class="widget-last" href="/posts/crack-mythware/"><div class="item"><time>2026-06-27</time><span>教程</span></div><span>破解极域，解放你的电脑！</span></a></li><li><a class="widget-last" href="/posts/discord-accelerator/"><div class="item"><time>2026-06-27</time><span>教程</span></div><span>国内免科学上网使用Discord</span></a></li></ul>
   </div>
 </section>
 
