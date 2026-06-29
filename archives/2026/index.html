@@ -2259,7 +2259,7 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
     root: '/',
     debug: "env",
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1782708926024),
+    lastupdate: new Date(1782725036616),
     cdn: {
       izitoast_css: 'https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css',
       izitoast_js: 'https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js',
@@ -2267,8 +2267,8 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
       fancybox_js: 'https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/4.0.31/fancybox.umd.min.js'
     },
     sidebar: {
-      for_page: ["blogger","announce","category","navigation","lastupdate","webinfo"],
-      for_post: ["blogger","announce","toc"],
+      for_page: ["blogger","announce","category","navigation","webinfo"],
+      for_post: ["announce","navigation","toc"],
       webinfo: {
         lastupd: {
           enable: true,
@@ -2474,6 +2474,23 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
+                href="/messages/" title="留言"
+                  
+                  
+                  
+                    active-action="action-messages"
+                  >
+                  <i class='fa-solid fa-message fa-fw'></i>留言
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
                 href="/about/" title="关于"
                   
                   
@@ -2631,6 +2648,23 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
+                href="/messages/" title="留言"
+                  
+                  
+                  
+                    active-action="action-messages"
+                  >
+                  <i class='fa-solid fa-message fa-fw'></i>留言
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
                 href="/about/" title="关于"
                   
                   
@@ -2728,6 +2762,13 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
               
               active-action="action-friends">
               <i class='fa-solid fa-link fa-fw'></i><p>友链</p>
+            </a>
+          
+            <a href="/messages/"
+              
+              
+              active-action="action-messages">
+              <i class='fa-solid fa-message fa-fw'></i><p>留言</p>
             </a>
           
             <a href="/about/"
@@ -3042,7 +3083,7 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
 
   <div class='content'>
     
-      <p>网站近期优化了字体。<a href="/announcement/">查看详情</a></p>
+      <p>网站新增了<a href="/messages/">留言板</a>，欢迎留言！</p>
 
     
   </div>
@@ -3147,39 +3188,17 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
           友链
         </a>
       
-        <a class="flat-box" href="/about/"
+        <a class="flat-box" href="/messages/"
           
           
-          active-action="action-about">
+          active-action="action-messages">
           
-            <i class="fa-solid fa-info-circle fa-fw" aria-hidden="true"></i>
+            <i class="fa-solid fa-message fa-fw" aria-hidden="true"></i>
           
-          关于
+          留言
         </a>
       
     </div>
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-
-<section class="widget desktop mobile pjax">
-  
-  <header>
-    
-      <i class="fa-solid fa-clock WISTERIA fa-fw" aria-hidden="true"></i><span class='name'>最近发布</span>
-    
-  </header>
-
-
-  <div class='content'>
-    <ul class="list entry navigation"><li><a class="widget-last" href="/posts/crack-mythware/"><div class="item"><time>2026-06-27</time><span>教程</span></div><span>破解极域，解放你的电脑！</span></a></li><li><a class="widget-last" href="/posts/discord-accelerator/"><div class="item"><time>2026-06-27</time><span>教程</span></div><span>国内免科学上网使用Discord</span></a></li></ul>
   </div>
 </section>
 
@@ -3254,6 +3273,10 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
