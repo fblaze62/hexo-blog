@@ -2266,7 +2266,7 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
     root: '/',
     debug: "env",
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1782555464346),
+    lastupdate: new Date(1782708518739),
     cdn: {
       izitoast_css: 'https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css',
       izitoast_js: 'https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js',
@@ -2274,8 +2274,8 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
       fancybox_js: 'https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/4.0.31/fancybox.umd.min.js'
     },
     sidebar: {
-      for_page: ["blogger","announce","category","tagcloud","lastupdate","webinfo"],
-      for_post: ["blogger","announce","toc"],
+      for_page: ["blogger","announce","category","navigation","lastupdate","webinfo"],
+      for_post: ["blogger","announce","navigation","toc"],
       webinfo: {
         lastupd: {
           enable: true,
@@ -2366,8 +2366,78 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
                   
                     active-action="action-home"
                   >
-                  <i class='fa-solid fa-rss fa-fw'></i>博客
+                  <i class='fa-solid fa-house fa-fw'></i>博客
                 </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                 title="文章"
+                  
+                  
+                  >
+                  <i class='fa-solid fa-pen fa-fw'></i>文章
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/categories/" title="分类"
+                  
+                  
+                  
+                    active-action="action-categories"
+                  >
+                  <i class='fa-solid fa-folder-open fa-fw'></i>分类
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/tags/" title="标签"
+                  
+                  
+                  
+                    active-action="action-tags"
+                  >
+                  <i class='fa-solid fa-tags fa-fw'></i>标签
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/archives/" title="归档"
+                  
+                  
+                  
+                    active-action="action-archives"
+                  >
+                  <i class='fa-solid fa-archive fa-fw'></i>归档
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
                 
               </li>
             
@@ -2384,57 +2454,6 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
                     active-action="action-announcement"
                   >
                   <i class='fa-solid fa-bullhorn fa-fw'></i>公告
-                </a>
-                
-              </li>
-            
-          
-          
-            
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/categories/" title="分类"
-                  
-                  
-                  
-                    active-action="action-categories"
-                  >
-                  <i class='fa-solid fa-folder-open fa-fw'></i>分类
-                </a>
-                
-              </li>
-            
-          
-          
-            
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/tags/" title="标签"
-                  
-                  
-                  
-                    active-action="action-tags"
-                  >
-                  <i class='fa-solid fa-tags fa-fw'></i>标签
-                </a>
-                
-              </li>
-            
-          
-          
-            
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/archives/" title="归档"
-                  
-                  
-                  
-                    active-action="action-archives"
-                  >
-                  <i class='fa-solid fa-archive fa-fw'></i>归档
                 </a>
                 
               </li>
@@ -2504,8 +2523,78 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
                   
                     active-action="action-home"
                   >
-                  <i class='fa-solid fa-rss fa-fw'></i>博客
+                  <i class='fa-solid fa-house fa-fw'></i>博客
                 </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                 title="文章"
+                  
+                  
+                  >
+                  <i class='fa-solid fa-pen fa-fw'></i>文章
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/categories/" title="分类"
+                  
+                  
+                  
+                    active-action="action-categories"
+                  >
+                  <i class='fa-solid fa-folder-open fa-fw'></i>分类
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/tags/" title="标签"
+                  
+                  
+                  
+                    active-action="action-tags"
+                  >
+                  <i class='fa-solid fa-tags fa-fw'></i>标签
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/archives/" title="归档"
+                  
+                  
+                  
+                    active-action="action-archives"
+                  >
+                  <i class='fa-solid fa-archive fa-fw'></i>归档
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
                 
               </li>
             
@@ -2522,57 +2611,6 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
                     active-action="action-announcement"
                   >
                   <i class='fa-solid fa-bullhorn fa-fw'></i>公告
-                </a>
-                
-              </li>
-            
-          
-            
-              
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/categories/" title="分类"
-                  
-                  
-                  
-                    active-action="action-categories"
-                  >
-                  <i class='fa-solid fa-folder-open fa-fw'></i>分类
-                </a>
-                
-              </li>
-            
-          
-            
-              
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/tags/" title="标签"
-                  
-                  
-                  
-                    active-action="action-tags"
-                  >
-                  <i class='fa-solid fa-tags fa-fw'></i>标签
-                </a>
-                
-              </li>
-            
-          
-            
-              
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/archives/" title="归档"
-                  
-                  
-                  
-                    active-action="action-archives"
-                  >
-                  <i class='fa-solid fa-archive fa-fw'></i>归档
                 </a>
                 
               </li>
@@ -2661,14 +2699,7 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
               
               
               active-action="action-home">
-              <i class='fa-solid fa-rss fa-fw'></i><p>博客</p>
-            </a>
-          
-            <a href="/announcement/"
-              
-              
-              active-action="action-announcement">
-              <i class='fa-solid fa-bullhorn fa-fw'></i><p>公告</p>
+              <i class='fa-solid fa-house fa-fw'></i><p>博客</p>
             </a>
           
             <a href="/categories/"
@@ -2690,6 +2721,13 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
               
               active-action="action-archives">
               <i class='fa-solid fa-archive fa-fw'></i><p>归档</p>
+            </a>
+          
+            <a href="/announcement/"
+              
+              
+              active-action="action-announcement">
+              <i class='fa-solid fa-bullhorn fa-fw'></i><p>公告</p>
             </a>
           
             <a href="/friends/"
@@ -3093,7 +3131,7 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
         
           
             <a href="https://docs.fblaze62.top/"
-              class="social fa-brands fa-xbox flat-btn"
+              class="social https://gcore.jsdelivr.net/gh/fblaze62/blog@main/images/fblaze-docs.png flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
               
@@ -3116,7 +3154,7 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
   
   <header>
     
-      <a href='/announcement/'><i class="fa-solid fa-bullhorn fa-fw" aria-hidden="true"></i><span class='name'>网站公告</span></a>
+      <a href='/announcement/'><i class="fas fa-bullhorn fa-fw" aria-hidden="true"></i><span class='name'>网站公告</span></a>
     
   </header>
 
@@ -3126,6 +3164,89 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
       <p>网站近期优化了字体。<a href="/announcement/">查看详情</a></p>
 
     
+  </div>
+</section>
+
+    
+  
+
+  
+    
+    
+      
+<section class="widget grid desktop mobile pjax">
+  
+  <header>
+    
+      <i class="fas fa-flag fa-fw" aria-hidden="true"></i><span class='name'>站内导航</span>
+    
+  </header>
+
+
+  <div class='content'>
+    <div class="grid navigation fixed">
+      
+        <a class="flat-box" href="/"
+          
+          
+          active-action="action-home">
+          
+            <i class="fas fa-house fa-fw" aria-hidden="true"></i>
+          
+          主页
+        </a>
+      
+        <a class="flat-box" href="/categories/"
+          
+          
+          active-action="action-categories">
+          
+            <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
+          
+          分类
+        </a>
+      
+        <a class="flat-box" href="/tags/"
+          
+          
+          active-action="action-tags">
+          
+            <i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i>
+          
+          标签
+        </a>
+      
+        <a class="flat-box" href="/archives/"
+          
+          
+          active-action="action-archives">
+          
+            <i class="fa-solid fa-archive fa-fw" aria-hidden="true"></i>
+          
+          归档
+        </a>
+      
+        <a class="flat-box" href="/friends/"
+          
+          
+          active-action="action-friends">
+          
+            <i class="fa-solid fa-link fa-fw" aria-hidden="true"></i>
+          
+          友链
+        </a>
+      
+        <a class="flat-box" href="/about/"
+          
+          
+          active-action="action-about">
+          
+            <i class="fa-solid fa-info-circle fa-fw" aria-hidden="true"></i>
+          
+          关于
+        </a>
+      
+    </div>
   </div>
 </section>
 
