@@ -2266,7 +2266,7 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
     root: '/',
     debug: "env",
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1782708518739),
+    lastupdate: new Date(1782708926024),
     cdn: {
       izitoast_css: 'https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css',
       izitoast_js: 'https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js',
@@ -2275,7 +2275,7 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
     },
     sidebar: {
       for_page: ["blogger","announce","category","navigation","lastupdate","webinfo"],
-      for_post: ["blogger","announce","navigation","toc"],
+      for_post: ["blogger","announce","toc"],
       webinfo: {
         lastupd: {
           enable: true,
@@ -3154,7 +3154,7 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
   
   <header>
     
-      <a href='/announcement/'><i class="fas fa-bullhorn fa-fw" aria-hidden="true"></i><span class='name'>网站公告</span></a>
+      <a href='/announcement/'><i class="fas fa-bullhorn fa-fw" aria-hidden="true"></i><span class='name'>公告</span></a>
     
   </header>
 
@@ -3164,89 +3164,6 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
       <p>网站近期优化了字体。<a href="/announcement/">查看详情</a></p>
 
     
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-<section class="widget grid desktop mobile pjax">
-  
-  <header>
-    
-      <i class="fas fa-flag fa-fw" aria-hidden="true"></i><span class='name'>站内导航</span>
-    
-  </header>
-
-
-  <div class='content'>
-    <div class="grid navigation fixed">
-      
-        <a class="flat-box" href="/"
-          
-          
-          active-action="action-home">
-          
-            <i class="fas fa-house fa-fw" aria-hidden="true"></i>
-          
-          主页
-        </a>
-      
-        <a class="flat-box" href="/categories/"
-          
-          
-          active-action="action-categories">
-          
-            <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
-          
-          分类
-        </a>
-      
-        <a class="flat-box" href="/tags/"
-          
-          
-          active-action="action-tags">
-          
-            <i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i>
-          
-          标签
-        </a>
-      
-        <a class="flat-box" href="/archives/"
-          
-          
-          active-action="action-archives">
-          
-            <i class="fa-solid fa-archive fa-fw" aria-hidden="true"></i>
-          
-          归档
-        </a>
-      
-        <a class="flat-box" href="/friends/"
-          
-          
-          active-action="action-friends">
-          
-            <i class="fa-solid fa-link fa-fw" aria-hidden="true"></i>
-          
-          友链
-        </a>
-      
-        <a class="flat-box" href="/about/"
-          
-          
-          active-action="action-about">
-          
-            <i class="fa-solid fa-info-circle fa-fw" aria-hidden="true"></i>
-          
-          关于
-        </a>
-      
-    </div>
   </div>
 </section>
 
@@ -3277,6 +3194,10 @@ volantis.pjax.send(volantis.clearAllTimers,"clearAllTimers");
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
